@@ -1,0 +1,119 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: 15% auto auto;
+  padding:20px;
+  grid-gap: 15px;
+  width: auto;
+  height: auto;
+  background-color: rgb(224,224,224);
+}
+.grid-item1{
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background-color: rgb(0,128,192);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Comic Sans MS";
+  text-align:center;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-item2{
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background-color: rgb(128,255,255);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: left;
+  border-radius: 50px;
+}
+
+.grid-item3{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+
+.face{
+  width:100px;
+  height:100px;
+  position: relative;
+  margin-left: 28%;
+  margin-right: auto;
+  border: 1px solid;
+  border-radius: 500px;
+  background-color: #2196F3;
+}
+
+.phone, .email, .web{
+  width:30px;
+  height:30px;
+}
+
+.facebook, .twitter, .instagram{
+  width:45px;
+  height:45px;
+}
+
+.bio{
+  font-size:20px;
+}
+
+.work{
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(6,1fr);
+}
+
+.education{
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4,1fr);
+}
+
+.ptext{
+  display: inline;
+}
+
+.item1, .item2{
+  grid-row-start: 3;
+}
+
+.item3, .item4{
+  grid-row-start: 5;
+}
+
+.item5{
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+.item6{
+  grid-row-start: 4;
+  grid-column-start: 2;
+}
+
+.item7{
+  grid-row-start: 6;
+  grid-column-start: 2;
+}
+
+ul{
+  font-size: 25px;
+}
+
+h1, h2{
+  font-size: 30px;
+}
